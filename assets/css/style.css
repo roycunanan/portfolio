@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}	
+
+.rmc {
+display: block;
+margin: auto;
+max-height: 150px;
+}
+
+.introH {
+border-bottom: 10px solid lightgrey;
+
+}
+
+.headIntro {
+	text-align: center;	
+	
+}
+
+.typewriter h1 {
+  overflow: hidden; 
+ 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.hoverZ {
+margin: auto;
+width: 95%;
+height: auto;
+padding: 0!important;
+}
+.hoverZ:hover {
+	transition: .5s ease;
+	transform: scale(1.11);
+}
+
+.abt {
+	background-color: lightgrey;
+	background-image: url(../images/abtimg.jpg);
+}
+
+.knuck {
+	max-width: 700px;
+	padding: 7em;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.knuckCont {
+	color: black;
+	margin: auto;	
+	text-align: center;
+	}
+
+.myskills {
+	margin: auto;
+	text-align: center;
+	padding: 8em;
+}
+
+.progress {
+	height: 60px!important;
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+}
+
+.socials {
+	margin: auto;
+	text-align: center;
+	letter-spacing: 30px;
+	text-decoration: none;
+}
+
+a i {
+	text-decoration: none;
+	color: black;
+	opacity: 0.5;
+
+}
+
+a i:hover {
+	opacity: 1;
+	transition: .5s ease;
+	transform: scale(1.21);
+
+}
+
+
+.contacts {
+	background-color: lightgrey;
+	
+}
+
+.contacts h1, ul, img{
+	margin: auto;
+	text-align: center;
+
+}
+
+ul {
+	 list-style-type: none;
+}
+
+.map{
+	margin: auto;
+	width: 100%;
+	height: auto;
+	padding: 1em;
+}
+
+.map:hover {
+	transition: 0.5s ease;
+	transform: scale(1.15);
+}
+
+footer {
+	text-align: center;
+	
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: 1px solid grey;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 2px;
+ 
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
