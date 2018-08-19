@@ -4,7 +4,7 @@ body, html {
 
 .parallax { 
     /* The image used */
-    background-image: url("images/pBg.jpg");
+    background-image: url("images/pBg.JPG");
 
     /* Full height */
     height: 100%; 
@@ -39,7 +39,7 @@ body, html {
 }
 
 .cp1 {
-  background-image: url(images/guidenest.jpg); 
+  background-image: url(images/guidenest.JPG); 
   background-size: contain cover; 
   background-repeat: no-repeat; 
   background-position: center center; 
@@ -48,7 +48,7 @@ body, html {
 }
 
 .cp2 {
-    background-image: url(images/roysilog.jpg); 
+    background-image: url(images/roysilog.JPG); 
   background-size: contain cover; 
   background-repeat: no-repeat; 
   background-position: center center; 
@@ -57,7 +57,7 @@ body, html {
 }
 
 .cp3 {
-  background-image: url(images/grounds.jpg); 
+  background-image: url(images/grounds.JPG); 
   background-size: contain cover; 
   background-repeat: no-repeat; 
   background-position: center center; 
